@@ -1,0 +1,27 @@
+.resultado {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.resultado__list {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.resultado__list_item {
+  margin: 0;
+}
+
+.resultado__titulo {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #ff9933;
+  border: 1px solid #00abbd;
+  padding: 2px;
+}
+
+.resultado__dados {
+  color: #00abbd;
+}

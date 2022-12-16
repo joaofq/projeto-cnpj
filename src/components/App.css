@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  background-color: #a1c7e0;
+  overflow: hidden;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.App_console {
+  margin: 30px auto;
+  border-radius: 15px 15px;
+  width: 70%;
+  background-color: #026e81;
+}
