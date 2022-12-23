@@ -4,7 +4,7 @@ import './header.css';
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__title">CONSULTA-cnpj</h1>
+      <h1 className="header__title">CONSULTA-CNPJ</h1>
     </header>
   );
 }

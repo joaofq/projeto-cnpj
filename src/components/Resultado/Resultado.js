@@ -5,12 +5,12 @@ function Resultado(props) {
   return (
     <section className="resultado">
       <h1 className="resultado__titulo">
-        CNPJ{' '}
         {props.data &&
-          props.data.cnpj.replace(
-            /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
-            '$1.$2.$3/$4-$5',
-          )}
+          'CNPJ  ' +
+            props.data.cnpj.replace(
+              /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
+              '$1.$2.$3/$4-$5',
+            )}
       </h1>
       <ul className="resultado__list">
         <li className="resutado__list_item">

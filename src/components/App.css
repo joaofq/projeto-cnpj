@@ -12,6 +12,12 @@
 .App_console {
   margin: 30px auto;
   border-radius: 15px 15px;
-  width: 70%;
+  width: 60%;
   background-color: #026e81;
+}
+
+@media screen and (max-width: 900px) {
+  .App_console {
+    width: 90%;
+  }
 }

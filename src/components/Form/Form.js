@@ -1,5 +1,5 @@
 import React from 'react';
-import cnpjMask from '../../utils/cnpjMask';
+import { cnpjMask, cnpjUnmask } from '../../utils/cnpjMask';
 import './form.css';
 
 function Form(props) {
@@ -12,13 +12,11 @@ function Form(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    const cnpj = value.replace(/\D/g, '');
-    props.onCnpjSubmit(cnpj);
+    props.onCnpjSubmit(cnpjUnmask(value));
   }
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      CNPJ:
       <input
         className="form__input"
         autoFocus
@@ -28,7 +26,7 @@ function Form(props) {
         onChange={inputChange}
         value={cnpjMask(value)}
       ></input>
-      <button className="form__button">Enviar</button>
+      <button className="form__button">Consultar</button>
     </form>
   );
 }
