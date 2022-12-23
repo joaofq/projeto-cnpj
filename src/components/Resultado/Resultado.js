@@ -6,10 +6,11 @@ function Resultado(props) {
     <section className="resultado">
       <h1 className="resultado__titulo">
         CNPJ{' '}
-        {props.data.cnpj.replace(
-          /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
-          '$1.$2.$3/$4-$5',
-        )}
+        {props.data &&
+          props.data.cnpj.replace(
+            /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
+            '$1.$2.$3/$4-$5',
+          )}
       </h1>
       <ul className="resultado__list">
         <li className="resutado__list_item">
@@ -33,7 +34,8 @@ function Resultado(props) {
         <li className="resutado__list_item">
           <p className="resultado__subtitulo">ENDREÇO:</p>
           <p className="resultado__dado">
-            {`
+            {props.data &&
+              `
              ${props.data.descricao_tipo_de_logradouro} ${props.data.logradouro} Nº ${props.data.numero}, ${props.data.complemento}, ${props.data.bairro}, ${props.data.municipio} - ${props.data.uf} - CEP ${props.data.cep}
             `}
           </p>
