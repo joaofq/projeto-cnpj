@@ -14,6 +14,10 @@
 }
 
 .resultado__titulo {
+  text-align: center;
+}
+
+.resultado__subtitulo {
   margin: 0;
   padding: 0;
   font-weight: bold;
