@@ -1,0 +1,22 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top: 20px;
+  padding: 0;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navitem {
+  font-size: 18px;
+}
+
+.navitem:hover {
+  color: aqua;
+  cursor: pointer;
+}

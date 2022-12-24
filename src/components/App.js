@@ -1,6 +1,8 @@
 import React from 'react';
+// import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Header/Header.js';
+import Navigation from './Navigation/Navigation';
 import Footer from './Footer/Footer';
 import Resultado from './Resultado/Resultado';
 import Form from './Form/Form';
@@ -25,7 +27,8 @@ function App() {
     <div className="App">
       <div className="App_console">
         <Header />
-
+        <Navigation />
+        <div style={{ backgroundColor: '#A1C7E0', height: 20 }}></div>
         <Form onCnpjSubmit={handleCnpjSubmit} />
         <Resultado data={data} />
         <br></br>
