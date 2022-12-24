@@ -20,3 +20,7 @@
   color: aqua;
   cursor: pointer;
 }
+
+.active {
+  color: red;
+}

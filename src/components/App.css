@@ -16,6 +16,13 @@
   background-color: #026e81;
 }
 
+.divisor {
+  background: linear-gradient(rgba(0, 0, 0, 0.729), rgba(0, 0, 0, 0.672)),
+    url('../images/searchBackground.jpg') no-repeat center;
+  background-size: cover;
+  height: 200px;
+}
+
 @media screen and (max-width: 900px) {
   .App_console {
     width: 90%;

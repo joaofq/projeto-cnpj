@@ -1,12 +1,14 @@
 import React from 'react';
-// import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Header/Header.js';
 import Navigation from './Navigation/Navigation';
+import Main from './Main/Main';
 import Footer from './Footer/Footer';
 import Resultado from './Resultado/Resultado';
-import Form from './Form/Form';
 import api from '../utils/api';
+import About from './About/About';
+import NotFound from './NotFound/NotFound';
 
 function App() {
   const [data, setData] = React.useState('');
@@ -28,9 +30,16 @@ function App() {
       <div className="App_console">
         <Header />
         <Navigation />
-        <div style={{ backgroundColor: '#A1C7E0', height: 20 }}></div>
-        <Form onCnpjSubmit={handleCnpjSubmit} />
-        <Resultado data={data} />
+        <div className="divisor"></div>
+        <Routes>
+          <Route
+            path="/main"
+            element={<Main onCnpjSubmit={handleCnpjSubmit} data={data} />}
+          />
+          <Route path="/" element={<About />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+
         <br></br>
         <div style={{ backgroundColor: '#026E81' }}>#026E81</div>
         <div style={{ backgroundColor: '#00ABBD' }}>#00ABBD</div>
