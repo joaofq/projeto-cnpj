@@ -29,7 +29,6 @@ function App() {
     <div className="App">
       <div className="App_console">
         <Header />
-        <Navigation />
         <div className="divisor"></div>
         <Routes>
           <Route
@@ -40,7 +39,6 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
 
-        <br></br>
         <div style={{ backgroundColor: '#026E81' }}>#026E81</div>
         <div style={{ backgroundColor: '#00ABBD' }}>#00ABBD</div>
         <div style={{ backgroundColor: '#0099DD' }}>#0099DD</div>

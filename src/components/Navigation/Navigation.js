@@ -7,18 +7,13 @@ export default function Navigation() {
     <nav className="nav">
       <ul className="navbar">
         <li className="navitem">
-          <NavLink to="/" className="" end>
-            Home
+          <NavLink to="/" className="navlink" end>
+            Sobre
           </NavLink>
         </li>
         <li className="navitem">
-          <NavLink to="main" className="">
+          <NavLink to="main" className="navlink">
             WebApp
-          </NavLink>
-        </li>
-        <li className="navitem">
-          <NavLink to="/contato" className="">
-            Contato
           </NavLink>
         </li>
       </ul>

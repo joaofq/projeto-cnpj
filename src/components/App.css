@@ -2,29 +2,22 @@
   text-align: center;
   margin: 0;
   min-height: 100vh;
-  background-color: #a1c7e0;
+  background-color: white;
   overflow: hidden;
-  color: #ffffff;
+  color: black;
   display: flex;
   flex-direction: column;
 }
 
 .App_console {
-  margin: 30px auto;
-  border-radius: 15px 15px;
-  width: 60%;
-  background-color: #026e81;
 }
 
 .divisor {
-  background: linear-gradient(rgba(0, 0, 0, 0.729), rgba(0, 0, 0, 0.672)),
-    url('../images/searchBackground.jpg') no-repeat center;
+  background: linear-gradient(
+      rgba(78, 184, 210, 0.226),
+      rgba(50, 168, 192, 0.519)
+    ),
+    url('../images/backgroundMap.png') no-repeat center;
   background-size: cover;
-  height: 200px;
-}
-
-@media screen and (max-width: 900px) {
-  .App_console {
-    width: 90%;
-  }
+  height: 300px;
 }

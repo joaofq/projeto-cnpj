@@ -1,27 +1,31 @@
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main__form {
   display: flex;
   justify-content: center;
-
-  padding: 80px;
 }
 
 .main__form_input {
+  margin-top: -180px;
   border-radius: 5px 0 0 5px;
   border: 0;
   padding: 0 0 0 10px;
-  height: 40px;
-  width: 160px;
+  height: 50px;
+  width: 200px;
 }
 
 .main__form_button {
+  margin-top: -180px;
   border-radius: 0 5px 5px 0;
   border: 0;
   padding: 0;
-  height: 40px;
-  width: 80px;
+  height: 50px;
+  width: 100px;
   background-color: #2f71e5;
   color: white;
 }

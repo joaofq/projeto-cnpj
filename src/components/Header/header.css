@@ -1,10 +1,14 @@
 .header {
-  display: block;
-  margin-top: 20px;
+  display: flex;
   padding: 10px;
-  background-color: #ff9933;
+  background-color: #0099dd;
+  color: white;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
 }
 
 .header__title {
   margin: 0;
+  text-align: left;
 }

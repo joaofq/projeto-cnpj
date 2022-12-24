@@ -4,16 +4,21 @@
 }
 
 .navbar {
-  margin-top: 20px;
+  margin: 0px;
   padding: 0;
-  width: 400px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
+  gap: 40px;
 }
 
 .navitem {
   font-size: 18px;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
 }
 
 .navitem:hover {

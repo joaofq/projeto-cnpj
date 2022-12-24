@@ -1,6 +1,10 @@
 .resultado {
   margin-top: 50px;
   text-align: left;
+  width: 60%;
+  background-color: #a1c7e0;
+  border-radius: 15px 15px;
+  box-shadow: 10px black;
 }
 
 .resultado__list {
@@ -15,6 +19,7 @@
 
 .resultado__titulo {
   text-align: center;
+  font-size: 30px;
 }
 
 .resultado__subtitulo {
@@ -28,4 +33,38 @@
 
 .resultado__dados {
   color: #00abbd;
+}
+
+.resultado__pesquisa {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.lupa {
+  width: 15px;
+  height: 15px;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+}
+
+.lupa:after {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  display: block;
+  content: '';
+  top: 1%;
+  left: 1%;
+
+  transform: rotate(45deg);
+  transform-origin: -6px 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .resultado {
+    width: 90%;
+  }
 }
