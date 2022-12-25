@@ -1,2 +1,14 @@
 .about {
+  margin-top: 20px;
+  align-self: center;
+  text-align: center;
+  width: 60%;
+  border-radius: 15px 15px;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1080px) {
+  .about {
+    width: 90%;
+  }
 }

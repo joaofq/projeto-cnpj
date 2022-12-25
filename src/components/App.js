@@ -38,13 +38,13 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
 
         <div style={{ backgroundColor: '#026E81' }}>#026E81</div>
         <div style={{ backgroundColor: '#00ABBD' }}>#00ABBD</div>
         <div style={{ backgroundColor: '#0099DD' }}>#0099DD</div>
         <div style={{ backgroundColor: '#FF9933' }}>#FF9933</div>
         <div style={{ backgroundColor: '#A1C7E0' }}>#A1C7E0</div>
-        <Footer />
       </div>
     </div>
   );

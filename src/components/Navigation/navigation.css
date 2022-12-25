@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-around;
   list-style: none;
-  gap: 40px;
+  gap: 20px;
 }
 
 .navitem {
@@ -19,13 +19,15 @@
 .navlink {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
-.navitem:hover {
-  color: aqua;
+.navlink:hover {
+  color: #ff9933;
   cursor: pointer;
 }
 
 .active {
-  color: red;
+  color: #ff9933;
+  text-decoration: underline;
 }

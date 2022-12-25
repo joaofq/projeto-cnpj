@@ -8,12 +8,12 @@ export default function Navigation() {
       <ul className="navbar">
         <li className="navitem">
           <NavLink to="/" className="navlink" end>
-            Sobre
+            SOBRE
           </NavLink>
         </li>
         <li className="navitem">
           <NavLink to="main" className="navlink">
-            WebApp
+            WEBAPP
           </NavLink>
         </li>
       </ul>

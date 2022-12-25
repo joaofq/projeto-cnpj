@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 10px;
+  padding: 20px 40px;
   background-color: #0099dd;
   color: white;
   justify-content: space-between;

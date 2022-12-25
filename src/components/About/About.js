@@ -14,6 +14,11 @@ export default function About() {
         através do CNPJ fornecido pelo usuário através da API
         (https://brasilapi.com.br/docs#tag/CNPJ).
       </p>
+      <p className="about__text">
+        Todos os dados gerados pela API são públicos, nos termos art. 4º do
+        Decreto nº 8.777, de 11 de maio de 2016, que institui Institui a
+        Política de Dados Abertos do Poder Executivo federal.
+      </p>
     </section>
   );
 }
