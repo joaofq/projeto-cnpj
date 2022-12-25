@@ -2,7 +2,7 @@
   margin-top: 20px;
   text-align: left;
   width: 60%;
-  background-color: #a1c7e0;
+  background-color: #edecec;
   border-radius: 15px 15px;
   box-shadow: 10px black;
 }
@@ -19,32 +19,37 @@
 
 .resultado__titulo {
   text-align: center;
-  font-size: 30px;
+  font-size: 1.8em;
 }
 
 .resultado__subtitulo {
   margin: 0;
   padding: 0;
+  font-size: 1.2em;
   font-weight: bold;
   color: #ff9933;
   border: 1px solid #00abbd;
   padding: 2px;
 }
 
-.resultado__dados {
-  color: #00abbd;
+.resultado__dado {
+  font-size: 1em;
+  text-decoration: none;
 }
 
-.resultado__pesquisa {
+.resultado__link {
   display: flex;
   gap: 10px;
   align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
 }
 
 .lupa {
   width: 15px;
   height: 15px;
-  border: 2px solid white;
+  border: 2px solid #0099dd;
   border-radius: 50%;
   position: relative;
 }
@@ -53,7 +58,7 @@
   position: absolute;
   width: 100%;
   height: 5px;
-  background-color: white;
+  background-color: #0099dd;
   display: block;
   content: '';
   top: 1%;

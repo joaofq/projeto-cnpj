@@ -44,7 +44,7 @@ function Resultado(props) {
               <a
                 href={'https://www.google.com.br/maps/place/' + endereco}
                 target="_blank"
-                className="resultado__pesquisa"
+                className="resultado__link"
               >
                 <p className="resultado__dado">
                   {`
@@ -63,7 +63,7 @@ function Resultado(props) {
                   href={'https://www.google.com/search?q=' + socio.nome_socio}
                   key={index}
                   target="_blank"
-                  className="resultado__pesquisa"
+                  className="resultado__link"
                 >
                   <p className="resultado__dado" key={index}>
                     {socio.nome_socio}

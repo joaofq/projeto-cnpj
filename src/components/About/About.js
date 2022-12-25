@@ -4,7 +4,7 @@ import './about.css';
 export default function About() {
   return (
     <section className="about">
-      <h2>Projeto Consulta - CNPJ</h2>
+      <h2 className="about__title">Projeto Consulta - CNPJ</h2>
       <p className="about__text">
         Este aplicativo é o projeto de conclusão do curso de desenvolvedor web
         Practicum da Yandex.

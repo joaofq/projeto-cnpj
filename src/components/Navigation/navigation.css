@@ -1,9 +1,9 @@
-.nav {
+.navigation {
   display: flex;
   justify-content: center;
 }
 
-.navbar {
+.navigation__bar {
   margin: 0px;
   padding: 0;
   display: flex;
@@ -12,22 +12,22 @@
   gap: 20px;
 }
 
-.navitem {
-  font-size: 18px;
+.navigation__bar_item {
+  font-size: 1.2em;
 }
 
-.navlink {
+.navigation__bar_link {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-.navlink:hover {
-  color: #ff9933;
+.navigation__bar_link:hover {
+  color: #fad149;
   cursor: pointer;
 }
 
 .active {
-  color: #ff9933;
+  color: #fad149;
   text-decoration: underline;
 }

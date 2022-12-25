@@ -4,15 +4,15 @@ import './navigation.css';
 
 export default function Navigation() {
   return (
-    <nav className="nav">
-      <ul className="navbar">
-        <li className="navitem">
-          <NavLink to="/" className="navlink" end>
+    <nav className="navigation">
+      <ul className="navigation__bar">
+        <li className="navigation__bar_item">
+          <NavLink to="/" className="navigation__bar_link" end>
             SOBRE
           </NavLink>
         </li>
-        <li className="navitem">
-          <NavLink to="main" className="navlink">
+        <li className="navigation__bar_item">
+          <NavLink to="main" className="navigation__bar_link">
             WEBAPP
           </NavLink>
         </li>

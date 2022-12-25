@@ -1,12 +1,19 @@
 .about {
-  margin-top: 20px;
+  margin-top: 40px;
   align-self: center;
   text-align: center;
   width: 60%;
   border-radius: 15px 15px;
-  font-size: 1.2em;
 }
 
+.about__title {
+  margin: 0 0 40px 0;
+  font-size: 1.8em;
+}
+
+.about__text {
+  font-size: 1.2em;
+}
 @media screen and (max-width: 1080px) {
   .about {
     width: 90%;
