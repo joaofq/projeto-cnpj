@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './Header/Header.js';
-import Main from './Main/Main';
-import Footer from './Footer/Footer';
-import api from '../utils/api';
-import About from './About/About';
-import NotFound from './NotFound/NotFound';
-import Invalid from './Invalid/Invalid';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
+import api from '../../utils/api';
+import About from '../About/About';
+import NotFound from '../NotFound/NotFound';
+import Invalid from '../Invalid/Invalid';
 
 function App() {
   const [data, setData] = React.useState('');
@@ -42,8 +42,8 @@ function App() {
         <Header />
         <div className="divisor"></div>
         <Routes>
-          <Route exact path="/" element={<About />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
+          <Route path="/" element={<About />} />
+          <Route path="*" element={<NotFound />} />
           <Route
             path="/main"
             element={

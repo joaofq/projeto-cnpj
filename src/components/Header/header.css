@@ -4,14 +4,14 @@
   background-color: #0099dd;
   color: white;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
 
 .header__logo {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   gap: 2px;
   text-decoration: none;
   color: white;
@@ -23,6 +23,7 @@
 
 .header__title {
   margin: 0;
+  padding: 0;
   text-align: left;
   font-size: 1.8em;
 }
