@@ -11,8 +11,8 @@ export default function About() {
       </p>
       <p className="about__text">
         O aplicativo consiste em consultar dados registrados na Receita Federal,
-        através do CNPJ fornecido pelo usuário através da API
-        (https://brasilapi.com.br/docs#tag/CNPJ).
+        através do CNPJ fornecido pelo usuário mediante requisição de API -
+        https://brasilapi.com.br/docs#tag/CNPJ.
       </p>
       <p className="about__text">
         Todos os dados gerados pela API são públicos, nos termos art. 4º do

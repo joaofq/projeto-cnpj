@@ -1,11 +1,24 @@
 .header {
   display: flex;
-  padding: 20px 20px;
+  padding: 5px 20px;
   background-color: #0099dd;
   color: white;
   justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  text-decoration: none;
+  color: white;
+}
+
+.header__image {
+  width: 50px;
 }
 
 .header__title {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './resultado.css';
+import loup from '../../images/loup.svg';
 
 function Resultado(props) {
   const endereco = `${props.data.descricao_tipo_de_logradouro} ${props.data.logradouro} Nº ${props.data.numero}, ${props.data.complemento}, ${props.data.bairro}, ${props.data.municipio} - ${props.data.uf} - CEP ${props.data.cep}`;
@@ -51,7 +52,7 @@ function Resultado(props) {
              ${endereco}
             `}
                 </p>
-                <div className="lupa"></div>
+                <img src={loup} className="resultado__loup" />
               </a>
             </li>
             <li className="resutado__list_item">
@@ -68,7 +69,7 @@ function Resultado(props) {
                   <p className="resultado__dado" key={index}>
                     {socio.nome_socio}
                   </p>
-                  <div className="lupa"></div>
+                  <img src={loup} className="resultado__loup" />
                 </a>
               ))}
             </li>

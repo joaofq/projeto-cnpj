@@ -2,10 +2,8 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Header/Header.js';
-import Navigation from './Navigation/Navigation';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
-import Resultado from './Resultado/Resultado';
 import api from '../utils/api';
 import About from './About/About';
 import NotFound from './NotFound/NotFound';
@@ -19,7 +17,6 @@ function App() {
       .getCnpj(cnpj)
       .then(setLoading(true))
       .then((data) => {
-        console.log(loading);
         setData(data);
         setLoading(false);
       });
