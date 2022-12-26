@@ -42,7 +42,7 @@ function App() {
         <Header />
         <div className="divisor"></div>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route exact path="/" element={<About />} />
           <Route path="/*" element={<NotFound />} />
           <Route
             path="/main"
