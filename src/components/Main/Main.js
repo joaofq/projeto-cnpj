@@ -1,5 +1,6 @@
 import React from 'react';
 import { cnpjMask, cnpjUnmask } from '../../utils/cnpjMask';
+import Preloader from '../Preloader/Preloader';
 import Resultado from '../Resultado/Resultado';
 import './main.css';
 
@@ -32,6 +33,7 @@ function Main(props) {
         ></input>
         <button className="main__form_button">Consultar</button>
       </form>
+      {props.loading ? <Preloader /> : ''}
       <Resultado data={props.data} />
     </main>
   );

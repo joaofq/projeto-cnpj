@@ -12,16 +12,16 @@ import NotFound from './NotFound/NotFound';
 
 function App() {
   const [data, setData] = React.useState('');
-  const [searching, setSearching] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
 
   function handleCnpjSubmit(cnpj) {
     api
       .getCnpj(cnpj)
-      .then(setSearching(true))
+      .then(setLoading(true))
       .then((data) => {
-        console.log(searching);
+        console.log(loading);
         setData(data);
-        setSearching(false);
+        setLoading(false);
       });
   }
 
@@ -31,12 +31,18 @@ function App() {
         <Header />
         <div className="divisor"></div>
         <Routes>
-          <Route
-            path="/main"
-            element={<Main onCnpjSubmit={handleCnpjSubmit} data={data} />}
-          />
           <Route path="/" element={<About />} />
           <Route path="*" element={<NotFound />} />
+          <Route
+            path="/main"
+            element={
+              <Main
+                onCnpjSubmit={handleCnpjSubmit}
+                data={data}
+                loading={loading}
+              />
+            }
+          />
         </Routes>
         <Footer />
         <div style={{ backgroundColor: '#026E81' }}>#026E81</div>
