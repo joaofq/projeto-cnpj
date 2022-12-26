@@ -14,6 +14,7 @@ function Main(props) {
   function handleSubmit(e) {
     e.preventDefault();
     props.onCnpjSubmit(cnpjUnmask(value));
+    setValue('');
   }
 
   return (
@@ -22,7 +23,7 @@ function Main(props) {
         <input
           className="main__form_input"
           autoFocus
-          placeholder="12.345.678/0001-00"
+          placeholder="00.000.000/0000-00"
           minLength={14}
           id="input-cnpj"
           onChange={inputChange}
