@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/projeto-cnpj/static/css/main.b5b458de.css",
+    "main.js": "/projeto-cnpj/static/js/main.0e1867a8.js",
+    "static/js/787.7d76c9ad.chunk.js": "/projeto-cnpj/static/js/787.7d76c9ad.chunk.js",
+    "static/media/backgroundMap.png": "/projeto-cnpj/static/media/backgroundMap.fa79bad2aac69f226df9.png",
+    "static/media/Roboto-ThinItalic-webfont.woff": "/projeto-cnpj/static/media/Roboto-ThinItalic-webfont.aef81b01239624108995.woff",
+    "static/media/Roboto-MediumItalic-webfont.woff": "/projeto-cnpj/static/media/Roboto-MediumItalic-webfont.54af0859c26a96288ff6.woff",
+    "static/media/Roboto-BoldItalic-webfont.woff": "/projeto-cnpj/static/media/Roboto-BoldItalic-webfont.9e436be04885872b684b.woff",
+    "static/media/Roboto-LightItalic-webfont.woff": "/projeto-cnpj/static/media/Roboto-LightItalic-webfont.a6de9e17296784d7d8a5.woff",
+    "static/media/Roboto-Italic-webfont.woff": "/projeto-cnpj/static/media/Roboto-Italic-webfont.7cb1470124dc7c8ae78c.woff",
+    "static/media/Roboto-Medium-webfont.woff": "/projeto-cnpj/static/media/Roboto-Medium-webfont.7157933a0a31a588c00f.woff",
+    "static/media/Roboto-Bold-webfont.woff": "/projeto-cnpj/static/media/Roboto-Bold-webfont.232db9bf3c3932654a51.woff",
+    "static/media/Roboto-Black-webfont.woff": "/projeto-cnpj/static/media/Roboto-Black-webfont.5f80784cdba80716873e.woff",
+    "static/media/Roboto-Thin-webfont.woff": "/projeto-cnpj/static/media/Roboto-Thin-webfont.682b5f610bccc163e720.woff",
+    "static/media/Roboto-Light-webfont.woff": "/projeto-cnpj/static/media/Roboto-Light-webfont.d96d15bd5f48b1fd2069.woff",
+    "static/media/Roboto-Regular-webfont.woff": "/projeto-cnpj/static/media/Roboto-Regular-webfont.e494e50e01c5d4a86d23.woff",
+    "static/media/detective-light-skin-tone-svgrepo-com.svg": "/projeto-cnpj/static/media/detective-light-skin-tone-svgrepo-com.d6ff4b3d7d9063f33b0c4ee381783ad8.svg",
+    "static/media/loup.svg": "/projeto-cnpj/static/media/loup.3ded896a2c56b170f6baa30dac371220.svg",
+    "index.html": "/projeto-cnpj/index.html",
+    "static/media/closeIcon.svg": "/projeto-cnpj/static/media/closeIcon.534dab17f49b89061cffc53f3dba1181.svg",
+    "main.b5b458de.css.map": "/projeto-cnpj/static/css/main.b5b458de.css.map",
+    "main.0e1867a8.js.map": "/projeto-cnpj/static/js/main.0e1867a8.js.map",
+    "787.7d76c9ad.chunk.js.map": "/projeto-cnpj/static/js/787.7d76c9ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5b458de.css",
+    "static/js/main.0e1867a8.js"
+  ]
+}
