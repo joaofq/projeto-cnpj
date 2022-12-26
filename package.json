@@ -2,7 +2,7 @@
   "name": "projeto-cnpj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://joaofq.github.io/projeto-cnpj/",
+  "homepage": "https://joaofq.github.io/projeto-cnpj",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
