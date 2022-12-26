@@ -1,7 +1,7 @@
 import React from 'react';
 import { cnpjMask, cnpjUnmask } from '../../utils/cnpjMask';
 import Preloader from '../Preloader/Preloader';
-import Resultado from '../Resultado/Resultado';
+import Result from '../Result/Result';
 import './main.css';
 
 function Main(props) {
@@ -34,7 +34,7 @@ function Main(props) {
         <button className="main__form_button">Consultar</button>
       </form>
       {props.loading ? <Preloader /> : ''}
-      <Resultado data={props.data} />
+      <Result data={props.data} />
     </main>
   );
 }

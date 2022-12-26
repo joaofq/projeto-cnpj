@@ -7,19 +7,33 @@ import Footer from './Footer/Footer';
 import api from '../utils/api';
 import About from './About/About';
 import NotFound from './NotFound/NotFound';
+import Invalid from './Invalid/Invalid';
 
 function App() {
   const [data, setData] = React.useState('');
   const [loading, setLoading] = React.useState(false);
+  const [isPopupOpen, setIsPopupOpen] = React.useState(false);
 
   function handleCnpjSubmit(cnpj) {
+    setData('');
     api
       .getCnpj(cnpj)
       .then(setLoading(true))
       .then((data) => {
         setData(data);
         setLoading(false);
+        setIsPopupOpen(false);
+      })
+      .catch((res) => {
+        if (!res.ok) {
+          setLoading(false);
+          setIsPopupOpen(true);
+        }
       });
+  }
+
+  function onClose() {
+    setIsPopupOpen(false);
   }
 
   return (
@@ -37,10 +51,13 @@ function App() {
                 onCnpjSubmit={handleCnpjSubmit}
                 data={data}
                 loading={loading}
+                isPopupOpen={isPopupOpen}
               />
             }
           />
         </Routes>
+        {isPopupOpen && <Invalid onClose={onClose} />}
+
         <Footer />
         <div style={{ backgroundColor: '#026E81' }}>#026E81</div>
         <div style={{ backgroundColor: '#00ABBD' }}>#00ABBD</div>

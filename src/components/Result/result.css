@@ -1,4 +1,4 @@
-.resultado {
+.result {
   margin-top: 20px;
   text-align: left;
   width: 60%;
@@ -7,22 +7,22 @@
   box-shadow: 10px black;
 }
 
-.resultado__list {
+.result__list {
   padding: 10px;
   margin-top: 40px;
   list-style: none;
 }
 
-.resultado__list_item {
+.result__list_item {
   margin: 0;
 }
 
-.resultado__titulo {
+.result__titulo {
   text-align: center;
   font-size: 1.8em;
 }
 
-.resultado__subtitulo {
+.result__subtitulo {
   margin: 10px 0;
   padding: 0;
   font-size: 1.2em;
@@ -32,13 +32,13 @@
   padding: 2px;
 }
 
-.resultado__dado {
+.result__dado {
   font-size: 1em;
   text-decoration: none;
   margin: 10px 0;
 }
 
-.resultado__link {
+.result__link {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -48,12 +48,12 @@
   color: black;
 }
 
-.resultado__loup {
+.result__loup {
   width: 25px;
 }
 
 @media screen and (max-width: 1080px) {
-  .resultado {
+  .result {
     width: 90%;
   }
 }
