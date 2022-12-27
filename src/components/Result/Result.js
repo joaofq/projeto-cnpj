@@ -33,13 +33,23 @@ function Result(props) {
               <p className="result__dado">{props.data.cnae_fiscal_descricao}</p>
             </li>
             <li className="resutado__list_item">
+              <p className="result__subtitulo">TIPO DE EMPRESA</p>
+              <p className="result__dado">{props.data.natureza_juridica}</p>
+            </li>
+            <li className="resutado__list_item">
               <p className="result__subtitulo">SITUAÇÃO:</p>
               <p className="result__dado">
                 {props.data.descricao_situacao_cadastral}
               </p>
+              <p className="result__dado">
+                INÍCIO DAS ATIVIDADES: {props.data.data_inicio_atividade}
+              </p>
+              <p className="result__dado">
+                CAPITAL SOCIAL: R$ {props.data.capital_social},00
+              </p>
             </li>
             <li className="resutado__list_item ">
-              <p className="result__subtitulo">ENDREÇO:</p>
+              <p className="result__subtitulo">ENDEREÇO:</p>
               <a
                 href={'https://www.google.com.br/maps/place/' + endereco}
                 target="_blank"
@@ -64,6 +74,9 @@ function Result(props) {
                 >
                   <p className="result__dado" key={index}>
                     {socio.nome_socio}
+                  </p>
+                  <p className="result__dado" key={index}>
+                    - CPF/CNPJ: {socio.cnpj_cpf_do_socio}
                   </p>
                   <img src={loup} className="result__loup" />
                 </a>
