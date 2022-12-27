@@ -1,17 +1,15 @@
 .result {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: left;
   width: 60%;
   min-height: 20vh;
-  background-color: #edecec;
-  border-radius: 15px 15px;
-  box-shadow: 10px black;
 }
 
 .result__list {
   padding: 10px;
-  margin-top: 40px;
   list-style: none;
+  background-color: #edecec;
+  border-radius: 15px 15px;
 }
 
 .result__list_item {
@@ -19,6 +17,7 @@
 }
 
 .result__titulo {
+  padding: 20px 0;
   text-align: center;
   font-size: 1.8em;
 }

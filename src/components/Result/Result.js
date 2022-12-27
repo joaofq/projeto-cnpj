@@ -12,14 +12,14 @@ function Result(props) {
     <section className="result">
       {props.data && (
         <>
-          <h1 className="result__titulo">
-            {'CNPJ  ' +
-              props.data.cnpj.replace(
-                /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
-                '$1.$2.$3/$4-$5',
-              )}
-          </h1>
           <ul className="result__list">
+            <li className="result__titulo">
+              {'CNPJ  ' +
+                props.data.cnpj.replace(
+                  /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/,
+                  '$1.$2.$3/$4-$5',
+                )}
+            </li>
             <li className="resutado__list_item">
               <p className="result__subtitulo">RAZÃO SOCIAL:</p>
               <p className="result__dado">{props.data.razao_social}</p>
