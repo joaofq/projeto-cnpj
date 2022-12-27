@@ -7,7 +7,7 @@ export default function Navigation() {
     <nav className="navigation">
       <ul className="navigation__bar">
         <li className="navigation__bar_item">
-          <NavLink to="/" className="navigation__bar_link" end>
+          <NavLink to="/" className="navigation__bar_link">
             SOBRE
           </NavLink>
         </li>
