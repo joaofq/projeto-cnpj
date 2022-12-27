@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/projeto-cnpj/static/css/main.03f912ad.css",
-    "main.js": "/projeto-cnpj/static/js/main.506236e1.js",
+    "main.css": "/projeto-cnpj/static/css/main.d16cbfc4.css",
+    "main.js": "/projeto-cnpj/static/js/main.5058c272.js",
     "static/js/787.7d76c9ad.chunk.js": "/projeto-cnpj/static/js/787.7d76c9ad.chunk.js",
     "static/media/backgroundMap.png": "/projeto-cnpj/static/media/backgroundMap.fa79bad2aac69f226df9.png",
     "static/media/Roboto-ThinItalic-webfont.woff": "/projeto-cnpj/static/media/Roboto-ThinItalic-webfont.aef81b01239624108995.woff",
@@ -16,15 +16,17 @@
     "static/media/Roboto-Light-webfont.woff": "/projeto-cnpj/static/media/Roboto-Light-webfont.d96d15bd5f48b1fd2069.woff",
     "static/media/Roboto-Regular-webfont.woff": "/projeto-cnpj/static/media/Roboto-Regular-webfont.e494e50e01c5d4a86d23.woff",
     "static/media/detective-light-skin-tone-svgrepo-com.svg": "/projeto-cnpj/static/media/detective-light-skin-tone-svgrepo-com.d6ff4b3d7d9063f33b0c4ee381783ad8.svg",
+    "static/media/github.svg": "/projeto-cnpj/static/media/github.7e1409154186efa62fdcb320443eaa07.svg",
     "static/media/loup.svg": "/projeto-cnpj/static/media/loup.3ded896a2c56b170f6baa30dac371220.svg",
+    "static/media/linkedin.svg": "/projeto-cnpj/static/media/linkedin.17ec29ef6ed9b3b4cb4224fcdff16f71.svg",
     "index.html": "/projeto-cnpj/index.html",
     "static/media/closeIcon.svg": "/projeto-cnpj/static/media/closeIcon.534dab17f49b89061cffc53f3dba1181.svg",
-    "main.03f912ad.css.map": "/projeto-cnpj/static/css/main.03f912ad.css.map",
-    "main.506236e1.js.map": "/projeto-cnpj/static/js/main.506236e1.js.map",
+    "main.d16cbfc4.css.map": "/projeto-cnpj/static/css/main.d16cbfc4.css.map",
+    "main.5058c272.js.map": "/projeto-cnpj/static/js/main.5058c272.js.map",
     "787.7d76c9ad.chunk.js.map": "/projeto-cnpj/static/js/787.7d76c9ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03f912ad.css",
-    "static/js/main.506236e1.js"
+    "static/css/main.d16cbfc4.css",
+    "static/js/main.5058c272.js"
   ]
 }
