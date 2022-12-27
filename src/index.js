@@ -4,16 +4,18 @@ import './vendor/normalize.css';
 import './index.css';
 import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-  </BrowserRouter>,
+  </HashRouter>,
 );
+
+//Substituí o BrowserRouter pelo HashRouter para funcionar no GitHub Pages.
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
