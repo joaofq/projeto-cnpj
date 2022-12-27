@@ -42,7 +42,6 @@ function App() {
         <Header />
         <div className="divisor"></div>
         <Routes>
-          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<About />} />
           <Route
             path="/main"
@@ -55,6 +54,7 @@ function App() {
               />
             }
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         {isPopupOpen && <Invalid onClose={onClose} />}
 
