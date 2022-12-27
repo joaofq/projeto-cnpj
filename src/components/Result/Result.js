@@ -6,8 +6,6 @@ import loup from '../../images/loup.svg';
 function Result(props) {
   const endereco = `${props.data.descricao_tipo_de_logradouro} ${props.data.logradouro} Nº ${props.data.numero}, ${props.data.complemento}, ${props.data.bairro}, ${props.data.municipio} - ${props.data.uf} - CEP ${props.data.cep}`;
 
-  // const map = 'https://www.google.com.br/maps/place/' + endereco;
-
   return (
     <section className="result">
       {props.data && (
@@ -55,11 +53,7 @@ function Result(props) {
                 target="_blank"
                 className="result__link"
               >
-                <p className="result__dado">
-                  {`
-             ${endereco}
-            `}
-                </p>
+                <p className="result__dado">{endereco}</p>
                 <img src={loup} className="result__loup" />
               </a>
             </li>
