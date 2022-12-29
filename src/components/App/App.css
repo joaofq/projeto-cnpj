@@ -2,7 +2,6 @@
   text-align: center;
   margin: 0;
   background-color: rgb(249, 248, 248);
-  overflow: hidden;
   color: black;
   display: flex;
   flex-direction: column;

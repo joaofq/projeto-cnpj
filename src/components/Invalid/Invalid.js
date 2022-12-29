@@ -10,6 +10,7 @@ export default function Invalid(props) {
           src={closeIcon}
           className="invalid__close-icon"
           onClick={props.onClose}
+          alt="Exit icon"
         />
         <h2 className="invalid__title">CNPJ INVÁLIDO</h2>
         <p className="invalid__text">

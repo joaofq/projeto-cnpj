@@ -12,10 +12,10 @@ function Footer() {
         href="https://www.linkedin.com/in/jo%C3%A3o-fernando-quattrucci-15334566"
         target="_blank"
       >
-        <img src={linkedin} className="footer__icons" />
+        <img src={linkedin} className="footer__icons" alt="Linkedin Icon" />
       </a>
       <a href="https://github.com/joaofq" target="_blank">
-        <img src={github} className="footer__icons" />
+        <img src={github} className="footer__icons" alt="Github Icon" />
       </a>
     </footer>
   );

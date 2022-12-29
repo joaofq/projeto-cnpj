@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './result.css';
 import loup from '../../images/loup.svg';
 
@@ -54,7 +53,7 @@ function Result(props) {
                 className="result__link"
               >
                 <p className="result__dado">{endereco}</p>
-                <img src={loup} className="result__loup" />
+                <img src={loup} className="result__loup" alt="Imagem de lupa" />
               </a>
             </li>
             <li className="resutado__list_item">
@@ -72,7 +71,11 @@ function Result(props) {
                   <p className="result__dado" key={index}>
                     - CPF/CNPJ: {socio.cnpj_cpf_do_socio}
                   </p>
-                  <img src={loup} className="result__loup" />
+                  <img
+                    src={loup}
+                    className="result__loup"
+                    alt="imagem de lupa"
+                  />
                 </a>
               ))}
             </li>

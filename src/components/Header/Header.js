@@ -8,7 +8,11 @@ function Header() {
   return (
     <header className="header">
       <Link to="/" className="header__logo">
-        <img src={detective} className="header__image" />
+        <img
+          src={detective}
+          className="header__image"
+          alt="Imagem de detetive como logo"
+        />
         <h1 className="header__title">CONSULTA-CNPJ</h1>
       </Link>
       <Navigation />
