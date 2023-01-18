@@ -4,6 +4,7 @@
   text-align: left;
   width: 60%;
   border-radius: 15px 15px;
+  min-height: 240px;
 }
 
 .about__title {
