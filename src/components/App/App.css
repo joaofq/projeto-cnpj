@@ -2,15 +2,14 @@
   text-align: center;
   margin: 0;
   background-color: rgb(249, 248, 248);
+  overflow: hidden;
   color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 .App_console {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .divisor {
